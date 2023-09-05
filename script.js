@@ -1,6 +1,9 @@
 // complete the given function
 
 function palindrome(str){
+	if(str.length == 0){
+		return false;
+	}
 	let i = 0;
 	let j = str.length-1;
 	while(i<=j){
